@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -12,10 +13,10 @@ header {
   align-items: center;
   color: aliceblue;
 }
+
 #box {
   height: 200px;
   border: 2px solid black;
-
   width: 500px;
   display: flex;
   justify-content: space-evenly;
@@ -29,33 +30,33 @@ header {
   background-size: cover;
   height: 100px;
   width: 100px;
-
   margin: 5px;
   display: inline-block;
 }
 
-#choice:hover {
-  opacity: 0.5;
-  background-color: aqua;
-  border-radius: 50%;
-}
 .paper {
   background-image: url(paper.jpg);
   background-size: cover;
   height: 100px;
   width: 100px;
-
   margin: 5px;
   display: inline-block;
 }
+
 .scissors {
   background-image: url(scissor.jpg);
   background-size: cover;
   height: 100px;
   width: 100px;
-
   margin: 5px;
   display: inline-block;
+}
+
+/* FIXED */
+.choice:hover {
+  opacity: 0.5;
+  background-color: aqua;
+  border-radius: 50%;
 }
 
 .score-board {
@@ -64,7 +65,6 @@ header {
   align-items: center;
   margin-top: 1rem;
   gap: 2rem;
-
   font-size: 2rem;
 }
 
@@ -79,6 +79,7 @@ header {
   align-items: center;
   margin-top: 2rem;
 }
+
 #mgs {
   background-color: aqua;
   font-size: 2rem;
