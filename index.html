@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="RPS.css" />
-  </head>
-  <body>
-    <header><h1>ROCK PAPER SEASOR GAME</h1></header>
-    <div id="box">
-      <div id="choice" class="rock"></div>
-      <div id="choice" class="paper"></div>
-      <div id="choice" class="scissors"></div>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="RPS.css" />
+</head>
+<body>
+  <header>
+    <h1>ROCK PAPER SCISSORS GAME</h1>
+  </header>
 
-    <div class="score-board">
-      <div class="score">
-        <p id="user-score">0</p>
-        <p id="you">you</p>
-      </div>
-      <div class="score">
-        <p id="comp-score">0</p>
-        <p id="computer">comp</p>
-      </div>
-    </div>
+  <div id="box">
+    <div class="choice rock" data-choice="rock"></div>
+    <div class="choice paper" data-choice="paper"></div>
+    <div class="choice scissors" data-choice="scissors"></div>
+  </div>
 
-    <div class="message-container">
-      <p id="mgs">score</p>
+  <div class="score-board">
+    <div class="score">
+      <p id="user-score">0</p>
+      <p>YOU</p>
     </div>
+    <div class="score">
+      <p id="comp-score">0</p>
+      <p>COMP</p>
+    </div>
+  </div>
 
-    <script src="practice.js"></script>
-  </body>
+  <div class="message-container">
+    <p id="mgs">Make your move!</p>
+  </div>
+
+  <!-- Script at the end -->
+  <script src="RPS.js"></script>
+</body>
 </html>
+
